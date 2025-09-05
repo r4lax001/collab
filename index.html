@@ -7,139 +7,70 @@
       href="https://fonts.googleapis.com/css2?family=Itim&family=Praise&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Collab/V1.0</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-
-      /* h1 ใส่id นี้ หรือเเล้วเเต่ถนัด*/
-      #Header-id {
-        text-align: center;
-        margin-top: 5px;
-      }
-
-      #ploy-id {
-        font-family: "Itim", cursive;
-        background-color: rgba(255, 182, 193, 0.15);
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 9999;
-      }
-
-      #bg-style {
-        background-color: #fff0f6;
-        border: 2px solid #f8bbd0;
-        border-radius: 24px;
-        padding: 30px 26px;
-        width: 320px;
-        max-width: 90vw;
-        box-shadow: 0 6px 18px rgba(248, 187, 208, 0.3);
-        text-align: center;
-        transition: transform 0.3s ease;
-      }
-
-      
-    </style>
   </head>
 
   <body>
     <h1 id="Header-id">Collab</h1>
 
-    <div>
-      <!-- 67131555, PM/DEV 1 put your infomation here! -->
+    <!-- 67131555, PM/DEV 1 put your infomation here! -->
 
-      <!-- 67124936, DEV 2 put your infomation here! -->
-      <div id="ploy-id">
-        <div id="bg-style"
-          onmouseover="this.style.transform='scale(1.05)';"
-          onmouseout="this.style.transform='scale(1)';"
-        >
-          <img
-            src="/67124936.jpg"
-            alt="student photo"
-            style="
-              width: 200px;
-              height: 140px;
-              border-radius: 16px;
-              object-fit: cover;
-              margin-bottom: 22px;
-              box-shadow: 0 4px 12px rgba(255, 182, 193, 0.6);
-            "
-          />
+    <div class="Pang">
+      <div
+        style="
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 25vw;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 9999;
+        "
+      >
+        <div id="bg-style">
 
-          <div
-            style="
-              font-size: 14px;
-              color: #ad1457;
-              margin-bottom: 6px;
-              font-family: 'Itim', cursive;
-            "
-          >
-            รหัสนักศึกษา
-          </div>
-          <div
-            style="
-              font-size: 17px;
-              font-weight: 600;
-              margin-bottom: 12px;
-              color: #ec407a;
-              font-family: 'Itim', cursive;
-            "
-          >
-            67124936
-          </div>
-          <div
-            style="
-              font-size: 22px;
-              font-weight: 700;
-              color: #880e4f;
-              margin-bottom: 18px;
-              font-family: 'Praise', cursive;
-            "
-          >
-            พลอยไพลิน วัชระ
-          </div>
-          <div
-            style="
-              font-size: 15px;
-              font-style: italic;
-              color: #ad1457;
-              background-color: #ffe4f0;
-              padding: 14px 18px;
-              border-radius: 16px;
-              display: inline-block;
-              position: relative;
-            "
-          >
-            "เรียบง่าย แต่ไม่ธรรมดา"
-            <span
-              style="
-                color: #ec407a;
-                font-size: 18px;
-                position: absolute;
-                right: 10px;
-                bottom: 10px;
-              "
-            ></span>
-          </div>
+          <img id="img-id" src="/67131555.png" alt="student photo" />
+          <div id="id-student">รหัสนักศึกษา</div>
+          <div id="number-id">67131555</div>
+          <div id="name-id">ปัฐวัติ เเสนคำเพิงใจ</div>
+          <div id="cumcom-id">"ลำบากวันนี้ สบายวันไหน"</div>
         </div>
       </div>
-
-      <!-- 67094657, DEV 3 put your infomation here! -->
-
-      <!-- 67136194, DEV 4 put your infomation here! -->
-
-      <!-- 67101868, DEV 5 put your infomation here! -->
     </div>
+
+    <!-- 67124936, DEV 2 put your infomation here! -->
+
+    <div id="ploy">
+      <div
+        style="
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 60vw;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 9999;
+        "
+      >
+        <div id="bg-style">
+          <img id="img-id" src="/67124936.jpg" alt="student photo" />
+          <div id="id-student">รหัสนักศึกษา</div>
+          <div id="number-id">67124936</div>
+          <div id="name-id">พลอยไพลิน วัชระ</div>
+          <div id="cumcom-id">"เรียบง่าย แต่ไม่ธรรมดา"</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 67094657, DEV 3 put your infomation here! -->
+
+    <!-- 67136194, DEV 4 put your infomation here! -->
+
+    <!-- 67101868, DEV 5 put your infomation here! -->
   </body>
 </html>
