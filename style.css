@@ -247,3 +247,60 @@
     background-color: #fff;
   }
   
+/* ---dev 3--- */
+#bg-style-3 {
+  background: linear-gradient(15deg, #ffffff 0%, #8189ff 100%);
+  border: 2px solid #626dff;
+  border-radius: 24px;
+  padding: 30px 26px;
+  width: 320px;
+  max-width: 90vw;
+  box-shadow: 0 6px 18px #626dff;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+#cumcom-id-3 {
+  font-size: 15px;
+  font-style: italic;
+  color: #ffffff;
+  background-color: #989fff;
+  box-shadow: 0 6px 6px #626dff;
+  padding: 14px 18px;
+  border-radius: 16px;
+  display: inline-block;
+  position: relative;
+}
+
+#img-id-3 {
+  width: 200px;
+  height: 140px;
+  border-radius: 16px;
+  object-fit: cover;
+  margin-bottom: 22px;
+  box-shadow: 0 4px 12px #626dff;
+}
+
+#id-student-3 {
+  font-size: 14px;
+  color: #1f1d91;
+  margin-bottom: 6px;
+  font-family: "Itim", cursive;
+}
+
+#name-id-3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2c3399;
+  margin-bottom: 18px;
+  font-family: "Praise", cursive;
+}
+
+#number-id-3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #404bbb;
+  font-family: "Itim", cursive;
+}
+
