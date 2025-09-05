@@ -37,6 +37,18 @@
   transition: transform 0.3s ease;
 }
 
+#bg-style-4 {
+  background-color: #f1ffed;
+  border: 2px solid rgb(200, 248, 187);
+  border-radius: 24px;
+  padding: 30px 26px;
+  width: 320px;
+  max-width: 90vw;
+  box-shadow: 0 6px 18px rgba(248, 187, 208, 0.3);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
 
 #img-id {
   width: 200px;
@@ -86,6 +98,17 @@
   font-style: italic;
   color: #ad5914;
   background-color: #ffddc5;
+  padding: 14px 18px;
+  border-radius: 16px;
+  display: inline-block;
+  position: relative;
+}
+
+#cumcom-id-4 {
+  font-size: 15px;
+  font-style: italic;
+  color: #1cad14;
+  background-color: #c5ffcc;
   padding: 14px 18px;
   border-radius: 16px;
   display: inline-block;
